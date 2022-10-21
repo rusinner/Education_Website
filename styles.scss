@@ -90,6 +90,14 @@ img{
     color: var(--color-white);
 }
              // navbar section
+
+// when winodw scrolls apply this class to navbar with javascript
+          .window-scroll{
+            background: var(--color-primary);
+            box-shadow:0 1rem 2rem rgba(0,0,0,.2) ;
+          }
+
+
 nav{
    background: transparent; 
    width: 100%;
