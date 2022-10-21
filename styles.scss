@@ -120,3 +120,102 @@ nav{
    }
 
 }
+
+      // header section
+
+      header{
+        position: relative;
+        top: 5rem;
+        overflow: hidden;
+        height: 70vh;
+        margin-bottom: 5rem;
+        .header_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 5rem;
+        height: 100%;
+        .header_left{
+            p{
+               margin: 1rem 0 2.4rem; 
+            }
+        }
+        }
+      }
+
+    //   Categories Section
+
+    .categories{
+        background: var(--color-bg1);
+        height:29rem;
+        h1{
+            line-height: 1;
+            margin-bottom: 3rem;
+        }
+        .categories_container{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            .categories_left{
+                margin-right: 4rem;
+                p{
+                    margin: 1rem 0 3rem;
+                }
+            }
+            .categories_right{
+              display: grid;
+              grid-template-columns: repeat(3,1fr);
+              gap: 1.2rem;
+              .category{
+                background: var(--color-bg2);
+                padding: 2rem;
+                border-radius: 2rem;
+                transition: var(--transition);
+                &:hover{
+                    box-shadow: 0 3rem 3rem rgba(0,0,0,.3);
+                    cursor: pointer;
+                }
+                &:nth-child(2){
+                    .category_icon{
+                        background: var(--color-danger);
+
+                    }
+                    
+                }
+                &:nth-child(3){
+                    .category_icon{
+                        background: var(--color-success);
+
+                    }
+                    
+                }
+                &:nth-child(4){
+                    .category_icon{
+                        background: var(--color-warning);
+
+                    }
+                    
+                }
+                &:nth-child(5){
+                    .category_icon{
+                        background: var(--color-success);
+
+                    }
+                    
+                }
+                .category_icon{
+                    background: var(--color-primary);
+                    padding: .7rem;
+                    border-radius: .9rem;
+                }
+                h5{
+                    margin: 2rem 0 1rem;
+                }
+                p{
+                    font-size: .85rem;
+                }
+
+              }
+
+            }
+        }
+    }

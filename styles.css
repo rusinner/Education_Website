@@ -124,4 +124,79 @@ nav .nav_container .nav_menu a:hover {
 }
 nav button {
   display: none;
+}
+
+header {
+  position: relative;
+  top: 5rem;
+  overflow: hidden;
+  height: 70vh;
+  margin-bottom: 5rem;
+}
+header .header_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+}
+header .header_container .header_left p {
+  margin: 1rem 0 2.4rem;
+}
+
+.categories {
+  background: var(--color-bg1);
+  height: 29rem;
+}
+.categories h1 {
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+.categories .categories_container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.categories .categories_container .categories_left {
+  margin-right: 4rem;
+}
+.categories .categories_container .categories_left p {
+  margin: 1rem 0 3rem;
+}
+.categories .categories_container .categories_right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+.categories .categories_container .categories_right .category {
+  background: var(--color-bg2);
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: var(--transition);
+}
+.categories .categories_container .categories_right .category:hover {
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.categories .categories_container .categories_right .category:nth-child(2) .category_icon {
+  background: var(--color-danger);
+}
+.categories .categories_container .categories_right .category:nth-child(3) .category_icon {
+  background: var(--color-success);
+}
+.categories .categories_container .categories_right .category:nth-child(4) .category_icon {
+  background: var(--color-warning);
+}
+.categories .categories_container .categories_right .category:nth-child(5) .category_icon {
+  background: var(--color-success);
+}
+.categories .categories_container .categories_right .category .category_icon {
+  background: var(--color-primary);
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+}
+.categories .categories_container .categories_right .category h5 {
+  margin: 2rem 0 1rem;
+}
+.categories .categories_container .categories_right .category p {
+  font-size: 0.85rem;
 }/*# sourceMappingURL=styles.css.map */
