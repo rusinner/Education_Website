@@ -39,3 +39,23 @@ var swiper = new Swiper(".mySwiper", {
     }
   }
 });
+
+//open menu in mobile version
+const menu = document.querySelector('.nav_menu');
+const menuBtn = document.querySelector('#open-menu-btn');
+const closeBtn = document.querySelector('#close-menu-btn');
+
+menuBtn.addEventListener('click', () =>{
+  menu.setAttribute('style', 'display:flex !important');
+  closeBtn.style.display = 'inline-block';
+  menuBtn.style.display = 'none';
+  
+});
+
+//close menu in mobile version
+const closeNav = () => {
+  menu.style.display = 'none';
+  closeBtn.style.display = 'none';
+  menuBtn.style.display = 'inline-block';
+}
+closeBtn.addEventListener('click', closeNav);
