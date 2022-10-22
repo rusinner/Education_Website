@@ -389,16 +389,16 @@ footer .footer_copyright {
     opacity: 0;
   }
   .nav_menu li:nth-child(2) {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
   }
   .nav_menu li:nth-child(3) {
-    -webkit-animation-delay: 2.5s;
-            animation-delay: 2.5s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
   }
   .nav_menu li:nth-child(4) {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
   }
   .nav_menu li a {
     background: var(--color-primary);
