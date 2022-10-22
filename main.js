@@ -21,3 +21,21 @@ faqs.forEach((faq) => {
        }
     });
 });
+
+// swipper js
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  //when width is >=600px
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+
+    }
+  }
+});

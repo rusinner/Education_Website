@@ -8,6 +8,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="styles.css">
     <title>Education_Website</title>
 </head>
@@ -303,10 +307,10 @@
        <!-- End of FAQ's Section -->
 
        <!-- Testimonial Section Starts Here -->
-       <section class="conatiner testimonials_container">
+       <section class="conatiner testimonials_container mySwiper">
         <h2>Student's Testimonials</h2>
-        <div>
-          <article class="testimonial">
+        <div class="swiper-wrapper">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
               <img src="./images/avatar-1.png" alt="avatar-1">
             </div>
@@ -320,7 +324,7 @@
                 possimus </p>
             </div>
           </article>
-          <article class="testimonial">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
               <img src="./images/avatar-2.png" alt="avatar-2">
             </div>
@@ -334,7 +338,7 @@
                 possimus </p>
             </div>
           </article>
-          <article class="testimonial">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
               <img src="./images/avatar-3.png" alt="avatar-3">
             </div>
@@ -348,7 +352,7 @@
                 possimus </p>
             </div>
           </article>
-          <article class="testimonial">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
               <img src="./images/avatar-4.png" alt="avatar-4">
             </div>
@@ -363,11 +367,75 @@
             </div>
           </article>
         </div>
+        <div class="swiper-pagination"></div>
        </section>
        <!-- End Of Testimonial Section -->
 
+       <!-- Footer Section Starts Here -->
+       <footer>
+        <div class="container footer_container">
+          <div class="footer_1">
+            <a href="index.html" class="footer_logo"><h4>Logo</h4></a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci et eum magni!
+            </p>
+          </div>
+
+          <div class="footer_2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+          </div>
+
+          <div class="footer_3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Termas and Conditions</a></li>
+              <li><a href="#">Refund Policy</a></li>
+
+            </ul>
+          </div>
+
+          <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+              <p>+01 234 567 8910</p>
+              <p>demosample@gmail.com</p>
+            </div>
+
+            <ul class="footer_socials">
+              <li>
+                <a href="#"><i class="uil uil-facebook"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-instagram-alt"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-twitter"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="uil uil-linkedin-alt"></i> </a>
+              </li>
+            </ul>
+          </div>
+          
+         
+        </div>
+        <div class="footer_copyright">
+          <small>Copyright &copy; Vooprogue</small>
+        </div>
+       </footer>
+       <!-- End Of Footer Section -->
+
        
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <script src="./main.js"></script>
 </body>

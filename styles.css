@@ -304,4 +304,39 @@ header .header_container .header_left p {
   left: 50%;
   top: -1.5rem;
   transform: rotate(45deg);
+}
+
+footer {
+  background: var(--color-bg1);
+  padding-top: 5rem;
+  font-size: 0.9rem;
+}
+footer ul li {
+  margin-bottom: 0.7rem;
+}
+footer ul li a:hover {
+  text-decoration: underline;
+}
+footer .footer_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+footer .footer_container div h4 {
+  margin-bottom: 1.2rem;
+}
+footer .footer_container .footer_1 p {
+  margin: 0 0 2rem;
+}
+footer .footer_container .footer_socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+footer .footer_copyright {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 1.2rem 0;
+  border-top: 1px solid var(--color-bg2);
 }/*# sourceMappingURL=styles.css.map */
