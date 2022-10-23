@@ -1,2 +1,3 @@
 # Education_Website
- html,sass,vanilla javascript,multi pages website
+ html,sass,vanilla javascript,multipage website
+ use formSpree for contact form
