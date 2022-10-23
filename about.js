@@ -1,3 +1,9 @@
+//change navbar styles on scroll
+
+window.addEventListener('scroll', () => {
+document.querySelector('nav').classList.toggle('window-scroll',window.scrollY > 150);
+});
+
 //open menu in mobile version
 const menu = document.querySelector('.nav_menu');
 const menuBtn = document.querySelector('#open-menu-btn');

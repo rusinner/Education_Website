@@ -1,7 +1,7 @@
 //change navbar styles on scroll
 
 window.addEventListener('scroll', () => {
-  document.querySelector('nav').classList.toggle('window-scroll',window.scrollY > 150);
+document.querySelector('nav').classList.toggle('window-scroll',window.scrollY > 150);
 });
 
 //show-hide faq answer
@@ -59,3 +59,4 @@ const closeNav = () => {
   menuBtn.style.display = 'inline-block';
 }
 closeBtn.addEventListener('click', closeNav);
+
